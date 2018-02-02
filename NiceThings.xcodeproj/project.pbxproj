@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		039A48FF202515150066CD46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039A48FE202515150066CD46 /* AppDelegate.swift */; };
+		039A4901202515150066CD46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039A4900202515150066CD46 /* ViewController.swift */; };
+		039A4904202515150066CD46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039A4902202515150066CD46 /* Main.storyboard */; };
+		039A4906202515150066CD46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 039A4905202515150066CD46 /* Assets.xcassets */; };
+		039A4909202515150066CD46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039A4907202515150066CD46 /* LaunchScreen.storyboard */; };
+		039A4914202515150066CD46 /* NiceThingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039A4913202515150066CD46 /* NiceThingsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		039A4910202515150066CD46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 039A48F3202515150066CD46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 039A48FA202515150066CD46;
+			remoteInfo = NiceThings;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		039A48FB202515150066CD46 /* NiceThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		039A48FE202515150066CD46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		039A4900202515150066CD46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		039A4903202515150066CD46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		039A4905202515150066CD46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		039A4908202515150066CD46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		039A490A202515150066CD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		039A490F202515150066CD46 /* NiceThingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiceThingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		039A4913202515150066CD46 /* NiceThingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceThingsTests.swift; sourceTree = "<group>"; };
+		039A4915202515150066CD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		039A48F8202515150066CD46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		039A490C202515150066CD46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		039A48F2202515150066CD46 = {
+			isa = PBXGroup;
+			children = (
+				039A48FD202515150066CD46 /* NiceThings */,
+				039A4912202515150066CD46 /* NiceThingsTests */,
+				039A48FC202515150066CD46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		039A48FC202515150066CD46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				039A48FB202515150066CD46 /* NiceThings.app */,
+				039A490F202515150066CD46 /* NiceThingsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		039A48FD202515150066CD46 /* NiceThings */ = {
+			isa = PBXGroup;
+			children = (
+				039A48FE202515150066CD46 /* AppDelegate.swift */,
+				039A4900202515150066CD46 /* ViewController.swift */,
+				039A4902202515150066CD46 /* Main.storyboard */,
+				039A4905202515150066CD46 /* Assets.xcassets */,
+				039A4907202515150066CD46 /* LaunchScreen.storyboard */,
+				039A490A202515150066CD46 /* Info.plist */,
+			);
+			path = NiceThings;
+			sourceTree = "<group>";
+		};
+		039A4912202515150066CD46 /* NiceThingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				039A4913202515150066CD46 /* NiceThingsTests.swift */,
+				039A4915202515150066CD46 /* Info.plist */,
+			);
+			path = NiceThingsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		039A48FA202515150066CD46 /* NiceThings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 039A4918202515150066CD46 /* Build configuration list for PBXNativeTarget "NiceThings" */;
+			buildPhases = (
+				039A48F7202515150066CD46 /* Sources */,
+				039A48F8202515150066CD46 /* Frameworks */,
+				039A48F9202515150066CD46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NiceThings;
+			productName = NiceThings;
+			productReference = 039A48FB202515150066CD46 /* NiceThings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		039A490E202515150066CD46 /* NiceThingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 039A491B202515150066CD46 /* Build configuration list for PBXNativeTarget "NiceThingsTests" */;
+			buildPhases = (
+				039A490B202515150066CD46 /* Sources */,
+				039A490C202515150066CD46 /* Frameworks */,
+				039A490D202515150066CD46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				039A4911202515150066CD46 /* PBXTargetDependency */,
+			);
+			name = NiceThingsTests;
+			productName = NiceThingsTests;
+			productReference = 039A490F202515150066CD46 /* NiceThingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		039A48F3202515150066CD46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Roadfire Software";
+				TargetAttributes = {
+					039A48FA202515150066CD46 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					039A490E202515150066CD46 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 039A48FA202515150066CD46;
+					};
+				};
+			};
+			buildConfigurationList = 039A48F6202515150066CD46 /* Build configuration list for PBXProject "NiceThings" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 039A48F2202515150066CD46;
+			productRefGroup = 039A48FC202515150066CD46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				039A48FA202515150066CD46 /* NiceThings */,
+				039A490E202515150066CD46 /* NiceThingsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		039A48F9202515150066CD46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039A4909202515150066CD46 /* LaunchScreen.storyboard in Resources */,
+				039A4906202515150066CD46 /* Assets.xcassets in Resources */,
+				039A4904202515150066CD46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		039A490D202515150066CD46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		039A48F7202515150066CD46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039A4901202515150066CD46 /* ViewController.swift in Sources */,
+				039A48FF202515150066CD46 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		039A490B202515150066CD46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039A4914202515150066CD46 /* NiceThingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		039A4911202515150066CD46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 039A48FA202515150066CD46 /* NiceThings */;
+			targetProxy = 039A4910202515150066CD46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		039A4902202515150066CD46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				039A4903202515150066CD46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		039A4907202515150066CD46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				039A4908202515150066CD46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		039A4916202515150066CD46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		039A4917202515150066CD46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		039A4919202515150066CD46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NiceThings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roadfiresoftware.NiceThings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		039A491A202515150066CD46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NiceThings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roadfiresoftware.NiceThings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		039A491C202515150066CD46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NiceThingsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roadfiresoftware.NiceThingsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiceThings.app/NiceThings";
+			};
+			name = Debug;
+		};
+		039A491D202515150066CD46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NiceThingsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roadfiresoftware.NiceThingsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiceThings.app/NiceThings";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		039A48F6202515150066CD46 /* Build configuration list for PBXProject "NiceThings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				039A4916202515150066CD46 /* Debug */,
+				039A4917202515150066CD46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		039A4918202515150066CD46 /* Build configuration list for PBXNativeTarget "NiceThings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				039A4919202515150066CD46 /* Debug */,
+				039A491A202515150066CD46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		039A491B202515150066CD46 /* Build configuration list for PBXNativeTarget "NiceThingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				039A491C202515150066CD46 /* Debug */,
+				039A491D202515150066CD46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 039A48F3202515150066CD46 /* Project object */;
+}
