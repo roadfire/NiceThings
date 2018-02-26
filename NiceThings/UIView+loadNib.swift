@@ -16,7 +16,7 @@ extension UIView {
          1. Create `class YourView: UIView`
          2. Create YourView.xib
          3. Populate YourView.xib with one UIView. Set the class on the UIView to YourView.
-         4. In code call `YourView.makeFromNib()` to instantiate your view.
+         4. In code call `YourView().loadNib()` to instantiate your view.
     */
     func loadNib<T: UIView>() -> T {
         let bundle = Bundle(for: type(of: self))
