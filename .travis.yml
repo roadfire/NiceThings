@@ -3,4 +3,4 @@ xcode_project: NiceThings.xcodeproj
 xcode_scheme: NiceThings
 
 script:
-- xcodebuild -project "NiceThings.xcodeproj" -scheme "NiceThings" -destination "OS=11.2,name=iPhone X" test | xcpretty
+- xcodebuild -project "NiceThings.xcodeproj" -scheme "NiceThings" test | xcpretty
