@@ -33,3 +33,9 @@ Why? Look closely at the documentation for each, and check out the Return Value.
 > A UITableViewCell object with the associated reuse identifier. This method always returns a valid cell.
 
 This is nicer than checking for nil and instantiating a new cell.
+
+## Show Build Durations in Xcode
+
+Because sometimes you want to time your build without `xcodebuild`. Just run this command in your Terminal:
+
+`defaults write com.apple.dt.Xcode ShowBuildOperationDuration YES`
