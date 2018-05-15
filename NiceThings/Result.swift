@@ -1,4 +1,4 @@
-enum Result {
-    case success
-    case failure
+enum Result<T, U> {
+    case success(T)
+    case failure(U)
 }
