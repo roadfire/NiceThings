@@ -33,6 +33,7 @@ Why? Look closely at the documentation for each, and check out the Return Value.
 > A UITableViewCell object with the associated reuse identifier. This method always returns a valid cell.
 
 This is nicer than checking for nil and instantiating a new cell.
+<<<<<<< HEAD
 
 ## The Result type
 
@@ -65,3 +66,5 @@ let completion = { (result: Result<Model, Error>) in
     }
 }
 ```
+=======
+>>>>>>> a50cbd2a61d0302f16d933e0af3ff4fc88453fe7

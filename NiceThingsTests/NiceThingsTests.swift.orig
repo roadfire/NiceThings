@@ -15,6 +15,12 @@ class NiceThingsTests: XCTestCase {
         let view = YourView().loadNib()
         XCTAssertTrue(view is YourView)
     }
+<<<<<<< HEAD
+    
+    override func tearDown() {
+        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        super.tearDown()
+    }
     
     func testResult() {
         let result = Result.success
@@ -27,4 +33,6 @@ class NiceThingsTests: XCTestCase {
         }
     }
         
+=======
+>>>>>>> a50cbd2a61d0302f16d933e0af3ff4fc88453fe7
 }

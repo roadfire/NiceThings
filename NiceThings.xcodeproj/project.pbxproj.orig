@@ -13,12 +13,15 @@
 		039A4906202515150066CD46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 039A4905202515150066CD46 /* Assets.xcassets */; };
 		039A4909202515150066CD46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039A4907202515150066CD46 /* LaunchScreen.storyboard */; };
 		039A4914202515150066CD46 /* NiceThingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039A4913202515150066CD46 /* NiceThingsTests.swift */; };
+<<<<<<< HEAD
+		039A491F202517D70066CD46 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039A491E202517D70066CD46 /* Result.swift */; };
+=======
 		C999599F2044B4FB00AA85B0 /* YourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C7E7B02044B40000F72E8F /* YourView.swift */; };
 		C99959A02044B60D00AA85B0 /* YourView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C7E7B22044B43300F72E8F /* YourView.xib */; };
 		C99959A12044B61200AA85B0 /* YourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C7E7B02044B40000F72E8F /* YourView.swift */; };
 		C9C7E7AF2044B3E400F72E8F /* UIView+loadNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C7E7AE2044B3E400F72E8F /* UIView+loadNib.swift */; };
-		039A491F202517D70066CD46 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039A491E202517D70066CD46 /* Result.swift */; };
 		C9C7E7B32044B43300F72E8F /* YourView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C7E7B22044B43300F72E8F /* YourView.xib */; };
+>>>>>>> a50cbd2a61d0302f16d933e0af3ff4fc88453fe7
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +48,13 @@
 		039A490F202515150066CD46 /* NiceThingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiceThingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		039A4913202515150066CD46 /* NiceThingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceThingsTests.swift; sourceTree = "<group>"; };
 		039A4915202515150066CD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9C7E7AE2044B3E400F72E8F /* UIView+loadNib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+loadNib.swift"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		039A491E202517D70066CD46 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+=======
+		C9C7E7AE2044B3E400F72E8F /* UIView+loadNib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+loadNib.swift"; sourceTree = "<group>"; };
 		C9C7E7B02044B40000F72E8F /* YourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourView.swift; sourceTree = "<group>"; };
 		C9C7E7B22044B43300F72E8F /* YourView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YourView.xib; sourceTree = "<group>"; };
+>>>>>>> a50cbd2a61d0302f16d933e0af3ff4fc88453fe7
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,8 +227,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				039A491F202517D70066CD46 /* Result.swift in Sources */,
+=======
 				C9C7E7AF2044B3E400F72E8F /* UIView+loadNib.swift in Sources */,
+>>>>>>> a50cbd2a61d0302f16d933e0af3ff4fc88453fe7
 				039A4901202515150066CD46 /* ViewController.swift in Sources */,
 				039A48FF202515150066CD46 /* AppDelegate.swift in Sources */,
 				C999599F2044B4FB00AA85B0 /* YourView.swift in Sources */,
