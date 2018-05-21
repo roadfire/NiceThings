@@ -34,6 +34,12 @@ Why? Look closely at the documentation for each, and check out the Return Value.
 
 This is nicer than checking for nil and instantiating a new cell.
 
+## Show Build Durations in Xcode
+
+Because sometimes you want to time your build without `xcodebuild`. Just run this command in your Terminal:
+
+`defaults write com.apple.dt.Xcode ShowBuildOperationDuration YES`
+
 ## The Result type
 
 The Result monad is a better way to handle operations that return one type on success and another on failure. It replaces code like this:
