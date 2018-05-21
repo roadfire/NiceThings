@@ -15,4 +15,16 @@ class NiceThingsTests: XCTestCase {
         let view = YourView().loadNib()
         XCTAssertTrue(view is YourView)
     }
+    
+    func testResult() {
+        let result = Result.success
+        
+        switch result {
+        case .success:
+            print("success! 🎉")
+        case .failure:
+            print("failure...")
+        }
+    }
+        
 }
