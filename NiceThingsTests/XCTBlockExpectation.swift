@@ -12,14 +12,16 @@ import XCTest
 /// `XCTBlockExpectation` is fulfilled *immediately* when the block condition is met,
 /// rather than taking a full second to fulfill like `XCTNSPredicateExpectation`.
 class XCTBlockExpectation: XCTestExpectation {
-    var queue = DispatchQueue(label: "XCTBlockExpectationQueue", qos: .background)
+    private var queue = DispatchQueue(label: "XCTBlockExpectationQueue", qos: .background)
     
+    /// Creates an expectation that is fulfilled immediately when a block returns true.
+    /// - parameter condition: The block that is evaluated by the expectation.
     init(condition: @escaping () -> Bool) {
         super.init(description: "XCTBlockExpectation")
         waitForCondition(condition: condition)
     }
     
-    func waitForCondition(condition: @escaping () -> Bool) {
+    private func waitForCondition(condition: @escaping () -> Bool) {
         queue.async { [weak self] in
             if condition() {
                 self?.fulfill()
