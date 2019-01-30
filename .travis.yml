@@ -1,6 +1,7 @@
 language: objective-c
 xcode_project: NiceThings.xcodeproj
 xcode_scheme: NiceThings
+osx_image: xcode10.1
 
 script:
-- xcodebuild -project "NiceThings.xcodeproj" -scheme "NiceThings" -destination "platform=iOS Simulator,name=iPhone X,OS=11.2" test | xcpretty
+- xcodebuild -project "NiceThings.xcodeproj" -scheme "NiceThings" -destination "platform=iOS Simulator,name=iPhone XS,OS=12.1" test | xcpretty
