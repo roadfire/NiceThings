@@ -71,3 +71,38 @@ let completion = { (result: Result<Model, Error>) in
     }
 }
 ```
+
+## XCTBlockExpectation
+
+`XCTBlockExpectation` turns this test case:
+
+```
+func test_XCTNSPredicateExpectation_should_be_replaced_with_XCTBlockExpectation() {
+    var moveAlong = false
+    let predicate = NSPredicate(block: { _,_ in moveAlong == true })
+    let expectation = XCTNSPredicateExpectation(predicate: predicate, object: nil)
+            
+    DispatchQueue.global().asyncAfter(deadline: .now() + 0.05) {
+        moveAlong = true
+    }
+            
+    wait(for: [expectation], timeout: 2)
+}
+```
+
+Into this:
+
+```
+func test_XCTBlockExpectation() {
+    var moveAlong = false
+    let expectation = XCTBlockExpectation { moveAlong == true }
+    
+    DispatchQueue.global().asyncAfter(deadline: .now() + 0.05) {
+        moveAlong = true
+    }
+    
+    wait(for: [expectation], timeout: 2)
+}
+```
+
+`XCTBlockExpectation` is more concise; it's also a zillion times faster than `XCTNSPredicateExpectation`. For some reason, Apple's `XCTNSPredicateExpectation` only seems to evaluate the block every second. This is insanely slow, especially if you have even a modest suite of async tests (100 async tests == 100+ seconds to complete). `XCTBlockExpectation` returns *immediately* when the block condition is met, making it *way* faster than `XCTNSPredicateExpectation`.
