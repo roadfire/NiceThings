@@ -13,11 +13,12 @@
 		039A4906202515150066CD46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 039A4905202515150066CD46 /* Assets.xcassets */; };
 		039A4909202515150066CD46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039A4907202515150066CD46 /* LaunchScreen.storyboard */; };
 		039A4914202515150066CD46 /* NiceThingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039A4913202515150066CD46 /* NiceThingsTests.swift */; };
+		039A491F202517D70066CD46 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039A491E202517D70066CD46 /* Result.swift */; };
+		0F9C40F42202088400C54D81 /* XCTBlockExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9C40F32202088400C54D81 /* XCTBlockExpectation.swift */; };
 		C999599F2044B4FB00AA85B0 /* YourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C7E7B02044B40000F72E8F /* YourView.swift */; };
 		C99959A02044B60D00AA85B0 /* YourView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C7E7B22044B43300F72E8F /* YourView.xib */; };
 		C99959A12044B61200AA85B0 /* YourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C7E7B02044B40000F72E8F /* YourView.swift */; };
 		C9C7E7AF2044B3E400F72E8F /* UIView+loadNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C7E7AE2044B3E400F72E8F /* UIView+loadNib.swift */; };
-		039A491F202517D70066CD46 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039A491E202517D70066CD46 /* Result.swift */; };
 		C9C7E7B32044B43300F72E8F /* YourView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C7E7B22044B43300F72E8F /* YourView.xib */; };
 /* End PBXBuildFile section */
 
@@ -45,8 +46,9 @@
 		039A490F202515150066CD46 /* NiceThingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiceThingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		039A4913202515150066CD46 /* NiceThingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceThingsTests.swift; sourceTree = "<group>"; };
 		039A4915202515150066CD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9C7E7AE2044B3E400F72E8F /* UIView+loadNib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+loadNib.swift"; sourceTree = "<group>"; };
 		039A491E202517D70066CD46 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		0F9C40F32202088400C54D81 /* XCTBlockExpectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTBlockExpectation.swift; sourceTree = "<group>"; };
+		C9C7E7AE2044B3E400F72E8F /* UIView+loadNib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+loadNib.swift"; sourceTree = "<group>"; };
 		C9C7E7B02044B40000F72E8F /* YourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourView.swift; sourceTree = "<group>"; };
 		C9C7E7B22044B43300F72E8F /* YourView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YourView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +114,7 @@
 			children = (
 				039A4913202515150066CD46 /* NiceThingsTests.swift */,
 				039A4915202515150066CD46 /* Info.plist */,
+				0F9C40F32202088400C54D81 /* XCTBlockExpectation.swift */,
 			);
 			path = NiceThingsTests;
 			sourceTree = "<group>";
@@ -161,7 +164,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Roadfire Software";
 				TargetAttributes = {
 					039A48FA202515150066CD46 = {
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				039A4914202515150066CD46 /* NiceThingsTests.swift in Sources */,
+				0F9C40F42202088400C54D81 /* XCTBlockExpectation.swift in Sources */,
 				C99959A12044B61200AA85B0 /* YourView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +286,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -289,6 +294,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -339,6 +345,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -346,6 +353,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -385,7 +393,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roadfiresoftware.NiceThings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -400,7 +408,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roadfiresoftware.NiceThings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -416,7 +424,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roadfiresoftware.NiceThingsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiceThings.app/NiceThings";
 			};
@@ -433,7 +441,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roadfiresoftware.NiceThingsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiceThings.app/NiceThings";
 			};

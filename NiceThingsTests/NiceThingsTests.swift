@@ -17,7 +17,7 @@ class NiceThingsTests: XCTestCase {
     }
     
     func testResult() {
-        let result = Result.success
+        let result: Result<Any, Any> = .success("hi")
         
         switch result {
         case .success:
@@ -25,6 +25,17 @@ class NiceThingsTests: XCTestCase {
         case .failure:
             print("failure...")
         }
+    }
+    
+    func testXCTBlockExpectation() {
+        var moveAlong = false
+        let expectation = XCTBlockExpectation { moveAlong == true }
+        
+        DispatchQueue.global().asyncAfter(deadline: .now() + 0.5) {
+            moveAlong = true
+        }
+        
+        wait(for: [expectation], timeout: 5)
     }
         
 }
